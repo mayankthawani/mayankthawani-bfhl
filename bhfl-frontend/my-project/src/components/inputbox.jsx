@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/bfhl";
+const API_URL = "https://mayankthawani-bfhl.onrender.com/bfhl";
 
 export default function InputBox({ setResult }) {
   const [input, setInput] = useState("");
